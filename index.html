@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#001D35">
+  <title>Data, Informasi, dan Validasinya — Microteaching Informatika</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell"><div class="deck">
+  <header class="deck-top">
+    <div class="left-header">
+      <div class="logo-wrap"><img src="logo_unila.png" alt="Logo Universitas Lampung" class="brand-logo"></div>
+      <div class="brand-mark"><span class="mark-dot"></span><span>DATA &amp; VALIDASI • FASE E</span></div>
+    </div>
+    <div class="top-tools">
+      <span id="timerDisplay" class="timer" aria-live="polite">15:00</span>
+      <button id="timerToggle" class="timer-toggle" type="button" aria-label="Mulai atau hentikan timer"><i data-lucide="play" width="16" height="16"></i></button>
+      <button id="fullscreenToggle" class="icon-btn" type="button" aria-label="Layar penuh" title="Layar penuh"><i data-lucide="maximize" width="18" height="18"></i></button>
+    </div>
+  </header>
+  <main class="stage" aria-live="polite">
+    <div class="progress-track" aria-label="Progres pembelajaran"><div id="progressBar" class="progress-bar"></div></div>
+
+    <section class="slide dark active" data-slide="1">
+      <div class="cover-layout">
+        <div class="cover-copy">
+          <p class="eyebrow">BAB I • INFORMATIKA</p>
+          <h1>Data, Informasi,<br>dan Validasinya</h1>
+          <p class="lead">Periksa sumber. Telusuri klaim. Simpulkan dengan bukti.</p>
+          <div class="meta-row"><span class="pill">Informatika Fase E • Kelas X</span><span class="pill">Microteaching 15 Menit</span></div>
+          <p class="teacher">Muhamad Khoirul Ramadhan • 2413025012</p>
+          <button id="startButton" type="button" class="primary-btn"><i data-lucide="play-circle" width="18" height="18"></i> Mulai Pembelajaran</button>
+        </div>
+        <div class="cover-photo"><img loading="lazy" src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="Seseorang memeriksa informasi melalui perangkat digital"></div>
+      </div>
+    </section>
+
+    <section class="slide" data-slide="2">
+      <p class="eyebrow">SLIDE 02 • TUJUAN &amp; ALUR</p>
+      <div class="two-col">
+        <div>
+          <h2>Tujuan pembelajaran</h2>
+          <div class="cards" style="margin-top:18px">
+            <article class="info-card"><strong>ATP Fase E • TP 1.1</strong><p>Memahami validitas sumber data.</p></article>
+            <article class="info-card"><strong>Target pertemuan</strong><p>Murid menyebutkan tiga aspek kredibilitas sumber dan dua langkah membaca lateral.</p></article>
+            <article class="info-card"><strong>Pemahaman bermakna</strong><p>Informasi yang terlihat meyakinkan tetap perlu diperiksa sumber dan buktinya.</p></article>
+          </div>
+        </div>
+        <div>
+          <h3 style="font-size:1.15rem">Agenda 15 menit</h3>
+          <div class="agenda" style="margin-top:12px">
+            <div class="agenda-card"><b>2 menit</b>Pemantik kasus</div><div class="agenda-card"><b>3 menit</b>CRAAP &amp; membaca lateral</div>
+            <div class="agenda-card"><b>5 menit</b>Analisis berpasangan</div><div class="agenda-card"><b>2 menit</b>Berbagi temuan</div>
+            <div class="agenda-card"><b>2 menit</b>Kuis cepat</div><div class="agenda-card"><b>1 menit</b>Refleksi</div>
+          </div>
+          <article class="qr-card" style="margin-top:16px"><div class="qr-layout">
+            <img class="qr" src="qr_buku.jpeg" alt="Kode QR untuk membuka buku Informatika Kelas X">
+            <div><h3>Akses Buku Digital</h3><p class="muted" style="margin:6px 0 12px">Pindai untuk membuka buku sumber Bab I.</p>
+              <a class="secondary-btn" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1sbiUnWvDsYh9U88pzyqM97MD3sxpye66/view?usp=drive_link"><i data-lucide="book-open" width="18" height="18"></i> Buka Buku Digital</a>
+            </div>
+          </div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide dark" data-slide="3">
+      <p class="eyebrow">SLIDE 03 • APERSEPSI</p>
+      <h2 style="max-width:920px">“Mulai besok semua sekolah masuk pukul 09.00 karena ada kebijakan baru.”</h2>
+      <p class="lead">Pesan diteruskan di grup tanpa tanggal, penerbit, tautan sumber asli, atau nomor pengumuman.</p>
+      <div class="three-col">
+        <article class="device-card"><div><span class="step-no">?</span><h3>Apa klaimnya?</h3><p>Rangkum isi pesan tanpa menambah tafsir.</p></div></article>
+        <article class="device-card"><div><span class="step-no">!</span><h3>Siapa sumbernya?</h3><p>Apakah penerbit dan sumber asli disebutkan?</p></div></article>
+        <article class="device-card"><div><span class="step-no">✓</span><h3>Apa buktinya?</h3><p>Temukan bukti pembanding sebelum menyimpulkan.</p></div></article>
+      </div>
+      <p class="hint" style="margin-top:18px">Kasus ini hanya simulasi pembelajaran, bukan pengumuman sekolah yang sebenarnya.</p>
+      <button id="conceptButton" class="primary-btn" type="button"><i data-lucide="arrow-right-circle" width="18" height="18"></i> Periksa informasinya</button>
+    </section>
+
+    <section class="slide" data-slide="4">
+      <p class="eyebrow">SLIDE 04 • MENILAI KREDIBILITAS</p>
+      <h2>Lima pertanyaan CRAAP</h2>
+      <p class="lead">Gunakan pertanyaan ini untuk menilai sumber informasi.</p>
+      <div class="component-grid">
+        <article class="component-card"><i data-lucide="calendar-clock"></i><h3>Currency</h3><p>Kapan informasi diterbitkan atau diperbarui?</p></article>
+        <article class="component-card"><i data-lucide="target"></i><h3>Relevance</h3><p>Apakah informasi sesuai dengan kebutuhan dan topik?</p></article>
+        <article class="component-card"><i data-lucide="user-round-check"></i><h3>Authority</h3><p>Siapa penulis atau penerbitnya? Apa kewenangannya?</p></article>
+        <article class="component-card"><i data-lucide="badge-check"></i><h3>Accuracy</h3><p>Apakah klaim didukung bukti yang dapat diperiksa?</p></article>
+        <article class="component-card"><i data-lucide="goal"></i><h3>Purpose</h3><p>Apa tujuan informasi: memberi tahu, membujuk, atau menjual?</p></article>
+      </div>
+      <div class="prompt">Jangan menilai hanya dari tampilan halaman. Periksa penerbit, bukti, tanggal, dan tujuan.</div>
+    </section>
+
+    <section class="slide dark" data-slide="5">
+      <p class="eyebrow">SLIDE 05 • MEMBACA LATERAL</p>
+      <h2>Keluar dari halaman, cari konteks yang lebih luas</h2>
+      <p class="lead">Jangan berhenti pada halaman yang memuat klaim. Buka sumber lain untuk memeriksanya.</p>
+      <div class="diagram">
+        <div class="node"><i data-lucide="quote"></i><span>KLAIM</span><small>catat apa yang dinyatakan</small></div><div class="arrow">→</div>
+        <div class="node cpu"><i data-lucide="external-link"></i><span>SUMBER ASLI</span><small>telusuri penerbit dan konteks</small></div><div class="arrow">→</div>
+        <div class="node"><i data-lucide="scale"></i><span>BANDINGKAN</span><small>cek sumber tepercaya lain</small></div>
+      </div>
+      <div class="memory">RANGKUM BUKTI → NILAI KREDIBILITAS → SIMPULKAN</div>
+      <p class="lead" style="margin-top:22px">Jika bukti belum cukup, nyatakan belum terverifikasi dan jangan sebarkan sebagai fakta.</p>
+    </section>
+
+    <section class="slide" data-slide="6">
+      <p class="eyebrow">SLIDE 06 • CONTOH PEMERIKSAAN</p>
+      <h2>Urai pesan simulasi</h2>
+      <p class="lead">Cari petunjuk yang hilang sebelum mempercayai klaim.</p>
+      <div class="ipo-flow">
+        <article id="checkClaim" class="ipo-step"><span class="step-no">1</span><h3>Klaim</h3><p>Jam masuk sekolah berubah mulai besok.</p></article>
+        <article id="checkSource" class="ipo-step"><span class="step-no">2</span><h3>Sumber</h3><p>Nama penerbit, tanggal, dan pengumuman asli tidak ada.</p></article>
+        <article id="checkEvidence" class="ipo-step"><span class="step-no">3</span><h3>Bukti</h3><p>Periksa kanal resmi sekolah dan konfirmasi independen.</p></article>
+      </div>
+      <button id="runCheck" class="primary-btn" type="button"><i data-lucide="scan-search" width="18" height="18"></i> Tampilkan hasil pemeriksaan</button>
+      <div id="checkFeedback" class="feedback" hidden>Kesimpulan sementara: belum cukup bukti. Jangan teruskan pesan sebagai pengumuman resmi.</div>
+      <div class="prompt">Contoh latihan ini tidak menggambarkan kebijakan sekolah yang nyata.</div>
+    </section>
+
+    <section class="slide" data-slide="7">
+      <p class="eyebrow">SLIDE 07 • KERJA BERPASANGAN / LKPD</p>
+      <h2>Periksa klaim, catat bukti, buat simpulan</h2>
+      <p class="lead">Gunakan LKPD terpisah bersama pasangan. Alokasi kegiatan: 5 menit.</p>
+      <div class="two-col">
+        <div class="cards">
+          <article class="info-card"><strong>01 • Catat klaim</strong><p>Tuliskan apa yang sebenarnya dinyatakan pesan.</p></article>
+          <article class="info-card"><strong>02 • Baca lateral</strong><p>Telusuri penerbit, tanggal, sumber asli, dan bukti pembanding.</p></article>
+          <article class="info-card"><strong>03 • Simpulkan</strong><p>Pilih status bukti dan jelaskan alasan dengan bukti yang ditemukan.</p></article>
+        </div>
+        <article class="qr-card qr-placeholder">
+          <div class="qr-placeholder-mark"><i data-lucide="qr-code" width="58" height="58"></i></div>
+          <div><h3>QR LKPD akan ditambahkan</h3><p class="muted">Slot ini disiapkan untuk gambar QR LKPD setelah berkas diunggah ke Drive. Untuk saat ini, buka file LKPD DOCX yang disediakan bersama modul.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide dark" data-slide="8">
+      <p class="eyebrow">SLIDE 08 • MENYUSUN SIMPULAN</p>
+      <h2>Dari pemeriksaan ke keputusan</h2>
+      <p class="lead">Kesimpulan harus sebanding dengan bukti yang tersedia.</p>
+      <div class="three-col">
+        <article class="device-card"><div><span class="step-no">✓</span><h3>Didukung bukti</h3><p>Sumber jelas dan bukti pembanding menguatkan klaim.</p></div></article>
+        <article class="device-card"><div><span class="step-no">?</span><h3>Belum cukup bukti</h3><p>Informasi penting belum ditemukan. Tunda membagikan.</p></div></article>
+        <article class="device-card"><div><span class="step-no">×</span><h3>Bertentangan</h3><p>Sumber tepercaya menunjukkan klaim tidak sesuai bukti.</p></div></article>
+      </div>
+      <div class="memory">KLAIM • SUMBER • BUKTI • SIMPULAN</div>
+    </section>
+
+    <section class="slide" data-slide="9">
+      <p class="eyebrow">SLIDE 09 • KUIS INTERAKTIF</p>
+      <h2>Cek pemahaman akhir</h2>
+      <div class="quiz-wrap">
+        <div class="question active-q" data-question="0"><h3>Soal 1</h3><p>Aspek CRAAP untuk memeriksa kewenangan penulis atau penerbit adalah …</p><div class="answers">
+          <button class="answer" data-correct="false" type="button">A. Currency</button><button class="answer" data-correct="false" type="button">B. Relevance</button><button class="answer" data-correct="true" type="button">C. Authority</button><button class="answer" data-correct="false" type="button">D. Purpose</button></div></div>
+        <div class="question" data-question="1"><h3>Soal 2</h3><p>Apa langkah membaca lateral setelah menemukan klaim di sebuah halaman?</p><div class="answers">
+          <button class="answer" data-correct="false" type="button">A. Langsung membagikannya</button><button class="answer" data-correct="true" type="button">B. Keluar dari halaman, telusuri sumber asli, lalu bandingkan</button><button class="answer" data-correct="false" type="button">C. Membaca judul saja</button><button class="answer" data-correct="false" type="button">D. Mengandalkan jumlah suka</button></div></div>
+        <div class="question" data-question="2"><h3>Soal 3</h3><p>Jika bukti belum cukup untuk memastikan klaim, tindakan yang tepat adalah …</p><div class="answers">
+          <button class="answer" data-correct="false" type="button">A. Meneruskannya dengan cepat</button><button class="answer" data-correct="false" type="button">B. Mengubah isi pesan</button><button class="answer" data-correct="true" type="button">C. Menandai belum terverifikasi dan tidak membagikannya sebagai fakta</button><button class="answer" data-correct="false" type="button">D. Menganggapnya benar</button></div></div>
+        <div id="quizFeedback" class="feedback" hidden></div>
+        <div class="source-row"><button id="showScore" class="primary-btn" type="button" disabled><i data-lucide="trophy" width="18" height="18"></i> Lihat Nilai</button><button id="resetQuiz" class="secondary-btn" type="button"><i data-lucide="rotate-ccw" width="18" height="18"></i> Reset Kuis</button></div>
+        <div id="scoreBox" class="score-box"><h3 id="scoreText"></h3><p id="followUp"></p></div>
+      </div>
+    </section>
+
+    <section class="slide dark" data-slide="10">
+      <p class="eyebrow">SLIDE 10 • SIMPULAN &amp; REFLEKSI</p>
+      <div class="two-col">
+        <div><h2>Mari simpulkan</h2><div class="cards" style="margin-top:18px">
+          <article class="info-card"><strong>01</strong><p>Nilai sumber dengan Currency, Relevance, Authority, Accuracy, dan Purpose.</p></article>
+          <article class="info-card"><strong>02</strong><p>Baca lateral: cari sumber asli dan bandingkan bukti dari sumber lain.</p></article>
+          <article class="info-card"><strong>03</strong><p>Jika bukti belum cukup, jangan sebarkan klaim sebagai fakta.</p></article>
+        </div>
+        <label for="reflectionText" style="display:block;margin:18px 0 8px;font-weight:700;color:#fff">Apa satu langkah yang akan kamu lakukan sebelum meneruskan pesan?</label>
+        <textarea id="reflectionText" class="reflection-box" aria-label="Jawaban refleksi"></textarea></div>
+        <div><article class="qr-card"><div class="qr-layout"><img class="qr" src="qr_buku.jpeg" alt="Kode QR untuk membuka buku Informatika Kelas X"><div><h3>Lanjutkan belajar</h3><p class="muted" style="margin:6px 0 12px">Buka Bab I buku Informatika Kelas X untuk membaca uraian lengkap.</p><a class="secondary-btn" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1sbiUnWvDsYh9U88pzyqM97MD3sxpye66/view?usp=drive_link"><i data-lucide="book-open" width="18" height="18"></i> Buka Buku Digital</a></div></div></article><p class="teacher" style="margin-top:18px;font-weight:700">Catatan guru: alokasi total pembelajaran 15 menit.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-controls"><button id="prevButton" type="button" class="nav-btn">← Sebelumnya</button><span id="slideCount" class="slide-count">1 / 10</span><button id="nextButton" type="button" class="nav-btn">Berikutnya →</button></footer>
+</div></div>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
